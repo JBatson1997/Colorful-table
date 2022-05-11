@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Colorful Table</title>
+<style>
+body{
+background:red;
+}
+table{
+width:800px;
+margin:auto;
+table-layout:fixed;
+text-align:center;
+margin-top:50px;
+font-family:Arial;
+color:#fff;
+}
+
+table, th, td{
+border:1px solid white;
+border-collapse:collapse;
+padding:20px;
+font-size:20px;
+}
+
+th{
+background:purple;
+padding:30px;
+text-transform:uppercase;
+}
+td:nth-child(5n+1){
+background:red;
+}
+td:nth-child(5n+2){
+background:blue;
+}
+td:nth-child(5n+3){
+background:green;
+}
+td:nth-child(5n+4){
+background:yellow;
+}
+td:nth-child(5n+5){
+background:black;
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+  <th> Name</th>
+  <th> Address</th>
+  <th> Contact</th>
+  <th> Post</th>
+  <th> Salary</th>
+</tr>
+
+<tr>
+  <td> Johann Batson</td>
+  <td> Christ Church</td>
+  <td> 3448893</td>
+  <td> Deep</td>
+  <td> 10,000</td>
+</tr>
+
+<tr>
+  <td> Jeriel Batson</td>
+  <td> Christ Church</td>
+  <td> 3445693</td>
+  <td> Deep</td>
+  <td> 13,000</td>
+</tr>
+
+<tr>
+  <td> Jadon Batson</td>
+  <td> Christ Church</td>
+  <td> 2346743</td>
+  <td> Deep</td>
+  <td> 10,000</td>
+</tr>
+
+<tr>
+  <td> Jade Browne</td>
+  <td> Kingston</td>
+  <td> 2467093</td>
+  <td> Over</td>
+  <td> 10,000</td>
+</tr>
+
+<tr>
+  <td> Jason Tindel</td>
+  <td> Christ Church</td>
+  <td> 2495678</td>
+  <td> Under</td>
+  <td> 25,000</td>
+</tr>
+
+</table>
+</body>
+</html>
